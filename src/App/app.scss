@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2:100,200,300,400,500,600,700,800,900&subset=cyrillic');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #232238;
+  color: #fff;
+  font-family: 'Exo 2', sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__line {
+  &-app {
+    min-width: 500px;
+    box-sizing: border-box;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      width: 129px;
+      opacity: 0.86;
+    }
+  }
+}
+
+.header__login {
+  display: flex;
+  align-items: center;
+  &-develop {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+}
+
+.content {
+  &__wrapper {
+    max-width: 700px;
+    min-width: 500px;
+    margin: 40px auto 0;
+    box-sizing: border-box;
+    padding: 0 40px;
+    h1 {
+      font-size: 40px;
+      font-weight: 400;
+      padding: 17px 15px;
+      line-height: 40px;
+    }
+    h2 {
+      font-size: 25px;
+      font-weight: 400;
+      padding: 10px 15px;
+    }
+    p {
+      color: #d6cdff;
+      font-size: 16px;
+      padding-bottom: 40px;
+    }
+  }
+  &__element {
+    display: flex;
+    margin: 30px 0;
+  }
+  &__border {
+    width: 9px;
+    border-radius: 20px 0 0 20px;
+    margin-right: 10px;
+    &-started {
+      background: #4263dc;
+    }
+    &-rest {
+      background: #9231bf;
+    }
+    &-passive {
+      background: #15b83c;
+    }
+    &-rules {
+      background: #ad3734;
+    }
+  }
+  &__motivation {
+    border-radius: 7px;
+    margin: 100px auto;
+    display: flex;
+    background: #fff;
+    position: relative;
+    &-text {
+      display: block;
+      padding: 10px 100px 10px 190px;
+      color: #000;
+      text-align: center;
+    }
+  }
+  &__footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0 35px 0;
+    color: #6a6b7a;
+    img {
+      width: 134px;
+      opacity: 0.34;
+      transition: opacity 200ms ease;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+  &__rules {
+    span {
+      color: #d6cdff;
+      font-size: 16px;
+      display: block;
+      padding-left: 30px;
+      position: relative;
+      margin-bottom: 20px;
+    }
+  }
+  &__mark {
+    fill: #fff;
+    width: 17px;
+    height: 10px;
+    margin-right: 15px;
+    position: absolute;
+    left: 0;
+    top: 5px;
+  }
+  &__cup {
+    position: absolute;
+    top: calc(50% - 15px);
+    left: 20px;
+  }
+}
