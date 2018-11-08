@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server -d --hot",
+    "build": "webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,7 +20,8 @@
   "homepage": "https://github.com/EgorEres/vis-react-example-app#readme",
   "dependencies": {
     "react": "^16.6.0",
-    "react-dom": "^16.6.0"
+    "react-dom": "^16.6.0",
+    "vis-react": "^0.4.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",

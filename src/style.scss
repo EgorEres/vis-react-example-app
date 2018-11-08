@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2:100,200,300,400,500,600,700,800,900&subset=cyrillic');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #232238;
+  color: #fff;
+  font-family: 'Exo 2', sans-serif;
+}
+
+// main block ************************
+
+.main-app {
+  position: relative;
+}
+
+// control form block ****************
+
+.control-form {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
+
